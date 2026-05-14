@@ -196,4 +196,4 @@ elif opcion == "⚙️ Admin":
     
     if st.button("📥 Exportar Base de Datos"):
         with open(DB_NAME, "rb") as f:
-            st.download_button("Descargar .db", f, file_name="respaldo_pasteleria.db")pip
+            st.download_button("Descargar .db", f, file_name="respaldo_pasteleria.db")
